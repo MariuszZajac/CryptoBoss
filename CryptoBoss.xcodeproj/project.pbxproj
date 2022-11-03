@@ -15,6 +15,7 @@
 		874733022913A8A7009C9719 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874733012913A8A7009C9719 /* TopMoversItemView.swift */; };
 		874733042913AF01009C9719 /* AllCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874733032913AF01009C9719 /* AllCoinView.swift */; };
 		874733062913AF12009C9719 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874733052913AF12009C9719 /* CoinRowView.swift */; };
+		874733082913BD8E009C9719 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874733072913BD8E009C9719 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		874733012913A8A7009C9719 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 		874733032913AF01009C9719 /* AllCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinView.swift; sourceTree = "<group>"; };
 		874733052913AF12009C9719 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		874733072913BD8E009C9719 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		874732FC2913A43B009C9719 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				874733072913BD8E009C9719 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			files = (
 				874733062913AF12009C9719 /* CoinRowView.swift in Sources */,
 				874732E82913A2B7009C9719 /* CryptoBossApp.swift in Sources */,
+				874733082913BD8E009C9719 /* HomeViewModel.swift in Sources */,
 				874733002913A886009C9719 /* TopMoversView.swift in Sources */,
 				874732FE2913A45F009C9719 /* HomeView.swift in Sources */,
 				874733042913AF01009C9719 /* AllCoinView.swift in Sources */,
