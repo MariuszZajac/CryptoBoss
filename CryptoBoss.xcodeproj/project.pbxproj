@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		874732E82913A2B7009C9719 /* CryptoBossApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874732E72913A2B7009C9719 /* CryptoBossApp.swift */; };
-		874732EA2913A2B7009C9719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874732E92913A2B7009C9719 /* ContentView.swift */; };
 		874732EC2913A2B8009C9719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874732EB2913A2B8009C9719 /* Assets.xcassets */; };
 		874732EF2913A2B8009C9719 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874732EE2913A2B8009C9719 /* Preview Assets.xcassets */; };
+		874732FE2913A45F009C9719 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874732FD2913A45F009C9719 /* HomeView.swift */; };
+		874733002913A886009C9719 /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874732FF2913A886009C9719 /* TopMoversView.swift */; };
+		874733022913A8A7009C9719 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874733012913A8A7009C9719 /* TopMoversItemView.swift */; };
+		874733042913AF01009C9719 /* AllCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874733032913AF01009C9719 /* AllCoinView.swift */; };
+		874733062913AF12009C9719 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874733052913AF12009C9719 /* CoinRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		874732E42913A2B7009C9719 /* CryptoBoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoBoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		874732E72913A2B7009C9719 /* CryptoBossApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBossApp.swift; sourceTree = "<group>"; };
-		874732E92913A2B7009C9719 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		874732EB2913A2B8009C9719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		874732EE2913A2B8009C9719 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		874732FD2913A45F009C9719 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		874732FF2913A886009C9719 /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
+		874733012913A8A7009C9719 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
+		874733032913AF01009C9719 /* AllCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinView.swift; sourceTree = "<group>"; };
+		874733052913AF12009C9719 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,11 @@
 		874732E62913A2B7009C9719 /* CryptoBoss */ = {
 			isa = PBXGroup;
 			children = (
-				874732E72913A2B7009C9719 /* CryptoBossApp.swift */,
-				874732E92913A2B7009C9719 /* ContentView.swift */,
+				874732F72913A32D009C9719 /* Utilis */,
+				874732F92913A350009C9719 /* Extensions */,
+				874732F82913A341009C9719 /* Models */,
+				874732F62913A323009C9719 /* Core */,
+				874732F52913A302009C9719 /* App */,
 				874732EB2913A2B8009C9719 /* Assets.xcassets */,
 				874732ED2913A2B8009C9719 /* Preview Content */,
 			);
@@ -65,6 +76,71 @@
 				874732EE2913A2B8009C9719 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		874732F52913A302009C9719 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				874732E72913A2B7009C9719 /* CryptoBossApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		874732F62913A323009C9719 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				874732FA2913A3F4009C9719 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		874732F72913A32D009C9719 /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
+		874732F82913A341009C9719 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		874732F92913A350009C9719 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		874732FA2913A3F4009C9719 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				874732FB2913A430009C9719 /* Views */,
+				874732FC2913A43B009C9719 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		874732FB2913A430009C9719 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				874732FD2913A45F009C9719 /* HomeView.swift */,
+				874732FF2913A886009C9719 /* TopMoversView.swift */,
+				874733012913A8A7009C9719 /* TopMoversItemView.swift */,
+				874733032913AF01009C9719 /* AllCoinView.swift */,
+				874733052913AF12009C9719 /* CoinRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		874732FC2913A43B009C9719 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874732EA2913A2B7009C9719 /* ContentView.swift in Sources */,
+				874733062913AF12009C9719 /* CoinRowView.swift in Sources */,
 				874732E82913A2B7009C9719 /* CryptoBossApp.swift in Sources */,
+				874733002913A886009C9719 /* TopMoversView.swift in Sources */,
+				874732FE2913A45F009C9719 /* HomeView.swift in Sources */,
+				874733042913AF01009C9719 /* AllCoinView.swift in Sources */,
+				874733022913A8A7009C9719 /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
